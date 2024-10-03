@@ -11,6 +11,7 @@ import { SetTheme } from '../';
 
 import {BsMoon, BsSunFill} from "react-icons/bs"
 import {IoMdNotificationsOutline} from "react-icons/io"
+import { Logout } from '../redux/userSlice'; 
 
 const TopBar = () => {
   const { theme } = useSelector(state => state.theme);

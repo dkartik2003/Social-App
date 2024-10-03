@@ -38,7 +38,7 @@ export function Logout() {
   };
 }
 
-export function updateProfile(val) {
+export function UpdateProfile(val) {
   return (dispatch, getState) => {
     dispatch(userSlice.actions.updateProfile(val));
   };
