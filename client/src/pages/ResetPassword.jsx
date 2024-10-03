@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { TextInput, Loading, CustomButton } from '../components';
+import {TextInput} from '../components';
+import {Loading} from '../components';
+import {CustomButton} from '../components';
 
 const ResetPassword = () => {
   const [errMsg, setErrMsg] = useState("");
