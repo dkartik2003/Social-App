@@ -7,7 +7,7 @@ import { useForm } from 'react-hook-form'; // Import useForm from react-hook-for
 // Assuming these are custom components:
 import TextInput from './TextInput'; // Update the import path according to your project structure
 import CustomButton from './CustomButton'; // Update the import path according to your project structure
-import { SetTheme } from '../';
+import { SetTheme } from '';
 
 import {BsMoon, BsSunFill} from "react-icons/bs"
 import {IoMdNotificationsOutline} from "react-icons/io"
